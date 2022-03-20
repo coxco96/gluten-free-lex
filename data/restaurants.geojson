@@ -49,9 +49,6 @@
       {
         "type": "Feature",
         "properties": {
-          "marker-color": "red",
-          "marker-size": "large",
-          "marker-symbol": "heart",
           "name": "Ted's Montana Grill",
           "fmgfRank": 4,
           "address": "Hamburg Pavilion, 2304 Sir Barton Way #170, Lexington, KY 40509"
