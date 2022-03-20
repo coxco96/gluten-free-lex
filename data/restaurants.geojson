@@ -1,0 +1,158 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Gluten Free Miracles",
+          "fmgfRank": 1,
+          "address": "145 Burt Rd, Lexington, KY 40503"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.519442,
+            38.007779
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Papi's Mexican Restaurant and Bar",
+          "fmgfRank": 2,
+          "address": "818 Euclid Ave, Lexington, KY 40502"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.4914021,
+            38.0297451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Puccini's Smiling Teeth",
+          "fmgfRank": 3,
+          "address": "3801 Dylan Pl, Lexington, KY 40514"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.5525466,
+            37.9807015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "red",
+          "marker-size": "large",
+          "marker-symbol": "heart",
+          "name": "Ted's Montana Grill",
+          "fmgfRank": 4,
+          "address": "Hamburg Pavilion, 2304 Sir Barton Way #170, Lexington, KY 40509"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.425407,
+            38.02332
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "The Wok",
+          "fmgfRank": 5,
+          "address": "537 Waller Ave, Lexington, KY 40504"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.52345,
+            38.033442
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Archa Nine Thai Kitchen",
+          "fmgfRank": 6,
+          "address": "162 Old Todds Rd #110, Lexington, KY 40509"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.454151,
+            38.00994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Josie's",
+          "fmgfRank": 7,
+          "address": "821 Chevy Chase Pl, Lexington, KY 40502"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.49243,
+            38.028782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Blue Sushi Sake Grill",
+          "fmgfRank": 9,
+          "address": "105 Summit At Fritz Farm Ste 130, Lexington, KY 40517"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.52819,
+            37.978135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Malone's Landsdowne",
+          "fmgfRank": 10,
+          "address": "3347 Tates Creek Rd, Lexington, KY 40502"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.497407,
+            37.997063
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+         "name": "Mellow Mushroom",
+          "fmgfRank": 13,
+          "address": "503 S Upper St, Lexington, KY 40508"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.50515,
+            38.043517
+          ]
+        }
+      }
+    ]
+  }
