@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/coxco96/cl06z4zdr001315m10mmbho82',
+    style: 'mapbox://styles/coxco96/cl0zqrb1j002i15l8tppyep3t',
     accessToken: 'pk.eyJ1IjoiY294Y285NiIsImEiOiJja3BrY2k0ZHgwa3Y0MnZwYTl3NWs4emJ5In0.ItwJEcRmF0LwO1DkHFgpZw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -18,8 +18,8 @@ var config = {
             // image: 'images/target.svg',
             description: "[insert legend here]",
             location: {
-                center: [-86.136, 38.118],
-                zoom: 6.5,
+                center: [-84.558, 38.038],
+                zoom: 11.2,
                 pitch: 0,
                 bearing: 0
             },
@@ -28,15 +28,15 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: '2019fatalcount',
-                    opacity: 1,
+                    // layer: '2019fatalcount',
+                    // opacity: 1,
                     // duration: 5000
                 }
             ],
             onChapterExit: [
                 {
-                    layer: '2019fatalcount',
-                    opacity: 0
+                    // layer: '2019fatalcount',
+                    // opacity: 0
                 }
             ]
         },
@@ -44,14 +44,12 @@ var config = {
             id: 'chapter-2',
             alignment: 'left',
             hidden: false,
-            title: '2020 Fatal Overdoses (Raw Count)',
+            title: '#1: Gluten Free Miracles',
             //image: './path/to/image/source.png',
             description: '[insert legend]',
             location: {
-                // center: [-85.706, 38.188], // jefferson zoom in
-                // zoom: 8.5, // jefferson zoom in
-                center: [-86.136, 38.118],
-                zoom: 6.5,
+                center: [-84.519, 38.006],
+                zoom: 15,
                 pitch: 0,
                 bearing: 0
             },
@@ -60,27 +58,27 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: '2020fatalcount',
+                    layer: 'gflexington',
                     opacity: 1,
-                    duration: 500
+                    //duration: 500
                 }],
             onChapterExit: [
                 {
-                layer: '2020fatalcount',
-                opacity: 0,
-                duration: 500
+                layer: 'gflexington',
+                opacity: 1,
+                //duration: 500
             }]
         },
         {
             id: 'chapter-3',
             alignment: 'left',
             hidden: false,
-            title: '2019 Fatal Overdoses (Rate)',
+            title: "Papi's Mexican Restaurant and Bar",
             // image: 'images/target.svg',
             description: '[insert legend]',
             location: {
-                center: [-84.836, 37.818],
-                zoom: 7.0,
+                center: [-84.4925, 38.030],
+                zoom: 18,
                 pitch: 0,
                 bearing: 0
             },
@@ -89,15 +87,75 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: '2019fatalrate',
+                    layer: 'gflexington',
                     opacity: 1,
                     //duration: 5000
                 }
             ],
             onChapterExit: [
                 {
-                    layer: '2019fatalrate',
-                    opacity: 0
+                    layer: 'gflexington',
+                    opacity: 1
+                }
+            ]
+        },
+        {
+            id: 'chapter-4',
+            alignment: 'left',
+            hidden: false,
+            title: "Puccini's Smiling Teeth",
+            // image: 'images/target.svg',
+            description: '[insert legend]',
+            location: {
+                center: [-84.553, 37.981],
+                zoom: 15,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'gflexington',
+                    opacity: 1,
+                    //duration: 5000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'gflexington',
+                    opacity: 1
+                }
+            ]
+        },
+        {
+            id: 'chapter-5',
+            alignment: 'left',
+            hidden: false,
+            title: "Ted's Montana Grill",
+            // image: 'images/target.svg',
+            description: '[insert legend]',
+            location: {
+                center: [-84.426, 38.023],
+                zoom: 14,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'gflexington',
+                    opacity: 1,
+                    //duration: 5000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'gflexington',
+                    opacity: 1
                 }
             ]
         }
